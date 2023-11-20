@@ -1,0 +1,9 @@
+POST http://localhost:8080/create HTTP/1.1
+content-type: application/json
+
+{
+    "table": "14D",
+    "products": [
+        {"name": "coca-cola", "quantity": 2}
+    ]
+}

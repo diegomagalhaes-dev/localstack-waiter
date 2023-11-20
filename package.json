@@ -19,6 +19,8 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@aws-sdk/client-sns": "^3.454.0",
+    "@aws-sdk/client-sqs": "^3.352.0",
     "express": "^4.18.2"
   }
 }
