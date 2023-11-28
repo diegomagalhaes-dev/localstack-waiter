@@ -7,7 +7,7 @@ services:
     ports:
       - "127.0.0.1:4566:4566"
     environment:
-      - SERVICES=sqs
+      - SERVICES=sqs,sns
       - EDGE_PORT=4566
       - DEBUG=1
       - DOCKER_HOST=unix:///var/run/docker.sock
